@@ -26,6 +26,7 @@ import { PubSubModule } from './common/pubsub/pubsub.module';
       autoSchemaFile: true,
       subscriptions: {
         'graphql-ws': true,
+        'subscriptions-transport-ws': true,
       },
     }),
     DatabaseModule,
